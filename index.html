@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing Simulation - Cybersecurity Awareness</title>
+    <style>
+        :root {
+            /* Color Palette */
+            --bg-color: #f7fafc;
+            --text-color: #2d3748;
+            --primary-blue: #2c5282;
+            --warning-red: #c53030;
+            --light-blue-bg: #ebf8ff;
+            --light-red-bg: #fff5f5;
+            --card-bg: #ffffff;
+            --border-color: #e2e8f0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background-color: var(--card-bg);
+            max-width: 800px;
+            width: 100%;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-top: 6px solid var(--warning-red);
+        }
+
+        h1 {
+            color: var(--warning-red);
+            font-size: 1.8rem;
+            margin-top: 0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        h2 {
+            color: var(--primary-blue);
+            font-size: 1.5rem;
+            margin-top: 2rem;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 0.5rem;
+        }
+
+        h3 {
+            color: var(--text-color);
+            font-size: 1.2rem;
+            margin-top: 1.5rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            margin-bottom: 1rem;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        .intro-box {
+            background-color: var(--light-blue-bg);
+            border-left: 4px solid var(--primary-blue);
+            padding: 1rem;
+            margin-bottom: 2rem;
+            border-radius: 4px;
+        }
+
+        .warning-details {
+            background-color: var(--light-red-bg);
+            border: 1px solid #fed7d7;
+            padding: 1rem;
+            border-radius: 4px;
+            margin-top: 1rem;
+        }
+
+        .action-item {
+            font-weight: bold;
+        }
+
+        .footer {
+            margin-top: 3rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+            font-size: 0.9rem;
+            color: #718096;
+        }
+
+        .footer strong {
+            display: block;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            color: var(--primary-blue);
+        }
+
+        /* Impressum Styles */
+        .imprint {
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .imprint h3 {
+            margin-top: 0;
+            font-size: 1.1rem;
+            color: var(--text-color);
+            margin-bottom: 1rem;
+        }
+
+        .imprint-container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .imprint-logo {
+            height: 70px;
+            width: auto;
+            max-width: 150px;
+            /* Safety constraint */
+            object-fit: contain;
+        }
+
+        .imprint-text {
+            font-size: 1rem;
+            line-height: 1.4;
+            color: var(--text-color);
+        }
+
+        .imprint-note {
+            margin-top: 1.5rem;
+            font-size: 0.8rem;
+            color: #a0aec0;
+            text-align: center;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 1.5rem;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .imprint-container {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>
+            <span>⚠️</span>
+            Simulation: Sie wären gerade Opfer eines Phishing-Angriffs geworden
+        </h1>
+
+        <div class="intro-box">
+            <p><strong>Keine Sorge!</strong> Dies ist Teil eines Schulprojekts zur Cybersecurity-Aufklärung.</p>
+            <p style="margin-bottom: 0;">Es wurden <strong>keine Daten</strong> von Ihnen abgefragt, gespeichert oder
+                weitergegeben. Dies ist eine absolut sichere, simulierte Webseite.</p>
+        </div>
+
+        <h2>Was ist gerade passiert?</h2>
+        <p>Sie haben auf einen Link in einer simulierten Phishing-E-Mail geklickt. In einem echten Angriffsfall hätten
+            Kriminelle versuchen können, Ihre Zugangsdaten zu stehlen oder Schadsoftware auf Ihrem Gerät zu
+            installieren.</p>
+        <p>Phishing ist der Versuch, über gefälschte Webseiten, E-Mails oder Kurznachrichten an persönliche Daten eines
+            Internet-Benutzers zu gelangen.</p>
+        <p>Selbst erfahrene Personen können betroffen sein, wenn Nachrichten täuschend echt aussehen oder Zeitdruck
+            aufgebaut wird.</p>
+
+        <div class="warning-details">
+            <h3>Typische Warnsignale:</h3>
+            <ul>
+                <li><strong>Unerwartete E-Mail:</strong> Sie haben diese Nachricht nicht angefordert oder erwartet.</li>
+                <li><strong>Zeitdruck:</strong> Die Nachricht fordert Sie auf, "sofort" zu handeln (z.B. "Ihr Konto wird
+                    gesperrt").</li>
+                <li><strong>Ungewöhnlicher Absender:</strong> Die E-Mail-Adresse passt nicht zum angeblichen
+                    Unternehmen.</li>
+                <li><strong>Link statt direkter Anmeldung:</strong> Sie sollen sich über einen Link einloggen, anstatt
+                    die Webseite direkt aufzurufen.</li>
+            </ul>
+        </div>
+
+        <h3>Was hätte man richtig machen können?</h3>
+        <ul>
+            <li><span class="action-item">Absenderadresse prüfen:</span> Klicken Sie auf den Namen des Absenders, um die
+                echte E-Mail-Adresse zu sehen.</li>
+            <li><span class="action-item">Link-Check (Mouseover):</span> Fahren Sie mit der Maus über den Link, ohne zu
+                klicken, um das tatsächliche Ziel zu sehen.</li>
+            <li><span class="action-item">Rückfrage:</span> Bei Unsicherheit den Absender über einen anderen,
+                offiziellen Kanal kontaktieren.</li>
+            <li><span class="action-item">Meldung:</span> Informieren Sie die IT-Abteilung oder Ihre Schule über
+                verdächtige Nachrichten.</li>
+        </ul>
+
+        <div class="footer">
+            <strong>Cybersecurity betrifft uns alle</strong>
+            <p>Diese Simulation dient ausschließlich Bildungszwecken und soll niemanden bloßstellen.</p>
+        </div>
+
+        <div class="imprint">
+            <h3>Impressum</h3>
+            <div class="imprint-container">
+                <img src="logo.png" alt="Logo des Erasmus Gymnasiums" class="imprint-logo">
+                <div class="imprint-text">
+                    <strong>WiWo Team Informatik</strong><br>
+                    Schulprojekt – Wissenschaftswoche
+                </div>
+            </div>
+            <p class="imprint-note">Dies ist eine nicht-kommerzielle Informationsseite im Rahmen eines schulischen
+                Projekts.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
